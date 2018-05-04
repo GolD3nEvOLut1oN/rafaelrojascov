@@ -60,6 +60,16 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0;
 }
 
+.blanco {
+  color: white;
+}
+
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .edge--bottom {
   position: relative;
   z-index: 1;
@@ -397,12 +407,15 @@ h1, h2, h3, h4, h5, h6 {
   background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 }
-#fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+
+#fh5co-home{
+  height:950px;
 }
+
 #fh5co-home .text-wrap {
   display: table;
   width: 100%;
+  height: 850px;
   position: relative;
   z-index: 4;
 }
@@ -478,6 +491,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-intro .fh5co-block {
   width: 33.33%;
+  min-height: 400px;
   float: left;
   text-align: center;
   font-size: 16px;
