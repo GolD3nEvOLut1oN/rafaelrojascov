@@ -725,7 +725,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 2;
+  z-index: 0;
   background: rgba(0, 0, 0, 0.7);
 }
 #fh5co-counters:before, #fh5co-counters:after {
@@ -1420,6 +1420,28 @@ h1, h2, h3, h4, h5, h6 {
   animation-duration: .3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.white {
+  color:#d8d8d8;
+}
+
+.form-control {
+    box-shadow: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 54px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#d8d8d8;
+}
+
+.toggle-content {
+  display: none;
+}
+
+.is-visible {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
